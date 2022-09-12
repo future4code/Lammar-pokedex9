@@ -10,11 +10,11 @@ LINK DO SURGE: https://gruesome-quartz.surge.sh/
 O QUE FUNCIONA:
 - Páginas criadas e rotas funcionando;
 - Botão para adicionar pokemon à Pokedex funcionando;
-- Botão para Remover Pokemon da Pokedex funcionando;
+- Botão para Remover Pokemon da Pokedex funcionando.
 
 O QUE NÃO FUNCIONA: 
-- Não foi criado uma lógica para ver os detalhes do Pokemon;
-- Ao Adicionar o Pokemon à página "Pokedex", o mesmo não desaparece da Página "Lista de Pokemons"
+- Não foi criada uma lógica para ver os detalhes do Pokemon;
+- Ao Adicionar o Pokemon à página "Pokedex", o mesmo não desaparece da Página "Lista de Pokemons".
 
 ESTILIZAÇÃO E RESPONSIVIDADE:
 - Estilização criada;
