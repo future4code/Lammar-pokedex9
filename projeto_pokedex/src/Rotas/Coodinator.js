@@ -1,11 +1,11 @@
 export const goToHomePage = (navigate) => {
-  navigate("/")
+	navigate("/")
 }
 
 export const goToPokedexPage = (navigate) => {
-  navigate("/PokedexPage")
+	navigate("/PokedexPage")
 }
 
 export const goToDetailsPage = (navigate) => {
-  navigate("/DetailsPage")
+	navigate("/DetailsPage")
 }
