@@ -1,20 +1,21 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { Cabecalho } from "./style";
 
 export const DetailsPage= () => {
 
-  const navigate = useNavigate()
-  const voltar = () => {
+	const navigate = useNavigate()
+	const voltar = () => {
 		navigate(-1)
 	}
 
-  return (
-    <div>
-			<header>
-        <h1>Nome do Pokemon</h1>
+	return (
+    	<div>
+			<Cabecalho>
 				<button onClick={voltar}>Voltar</button>
-        <button >Adicionar/Remover</button>
-			</header>
-    </div>
-  )
-}
+				<h1>Nome do Pokemon</h1>
+        		<button >Adicionar/Remover</button>
+			</Cabecalho>
+    	</div>
+  	)
+}  

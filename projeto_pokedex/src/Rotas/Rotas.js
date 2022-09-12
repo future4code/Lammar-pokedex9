@@ -5,7 +5,8 @@ import { HomePage } from "../Pages/HomePage/HomePage";
 import { Pokedex } from "../Pages/PokedexPage/PokedexPage";
 
 export const Rotas = () => {
-  return (
+
+	return (
 		<div>
 			<BrowserRouter>
 				<Routes>
@@ -15,5 +16,5 @@ export const Rotas = () => {
 				</Routes>
 			</BrowserRouter>
 		</div>
-  )
+	)
 }
